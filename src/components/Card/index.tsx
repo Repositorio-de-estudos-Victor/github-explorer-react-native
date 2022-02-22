@@ -49,6 +49,7 @@ export function Card({ data, onPress }: CardProps) {
   }
 
   function CardContent() {
+
     return (
       <CardContainer
         hasImage={!!data.imageUrl}
